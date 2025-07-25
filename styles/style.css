@@ -153,9 +153,12 @@ width: 400PX;
 .badge{
     position: absolute;
     height: 200px;
-   left: 230px;
-   bottom: 50px;
-top: 0px;
+
+    right: 550px;
+   /* left: 230px; */
+
+   bottom: 200px;
+top: 0;
 
 
 
