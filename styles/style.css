@@ -40,7 +40,7 @@
     margin-top: 60px;
     padding: 20px;
     border-radius: 10px;
-/* display: none; */
+
    
 }
 .banner-text{
@@ -94,16 +94,16 @@ height: 117px;
     align-items: center;
     text-align: center;
     width: 500px;
-    display: none;
+   
 }
 .card-container{
    display: grid;
    grid-template-columns: repeat(4, 1fr);
    gap: 20px;
    margin: 30px;
-   /* align-items: center; */
+ 
    text-align: center;
-   display: none;
+  
 }
 .lily{
     color: rgb(17, 17, 17)8;
@@ -141,7 +141,7 @@ border: none;
     margin-top: 100px;
     padding: 46px;
     justify-content: end;
-    display: none;
+   
  
 }
 .main-img{
@@ -168,7 +168,7 @@ width: 400PX;
 
 .bg-section{
     margin: 140px;
-    display: none;
+  
     
     align-items: center;
    text-align: center;
@@ -241,13 +241,14 @@ border-radius: 20px;
 /* input-bunner-section */
 .input-bunner-section{
    margin-bottom: 100px;
+ 
 }
 .input-bunner{
 background-image: url(../B12A02-Responsive-Flowers-main/assets/news-letter-bg.png);
 background-position: center;
 background-size: cover;
 width: 100%;
-    display: none;
+
 
 height:600px;
 }
@@ -298,7 +299,7 @@ border: none;
     font-size: 20px;
     font-weight: 500;
     color: rgb(107, 114, 128);
-    display: none;
+ 
    
 }
 .footer-card{
@@ -316,7 +317,8 @@ border: none;
 }
 
 .none{
-    display: none;
+    display:flex;
+    gap: 10px;
 }
 
 
@@ -324,22 +326,150 @@ border: none;
 
 /* Responsive section */
 @media screen and (max-width: 576px) {
-   .nav-container{
-   display: flex;
-   justify-content: space-between;
-   align-items: center;
-   text-align: center;
-
-   }
-/* .banner-container{
+.nav-container{
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
+}
+.none{
+    display: none;
+}
+.banner-container, .main-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.banner-text{
+   width: 300px;
+   font-size: 20px; 
+}
+.banner-title, .span {
+    font-size: 30px;
+    align-items: center;
+     text-align: center;
+}
+/* .card-section
+   
+ */
+ .card-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+ }
+ .our-plants-text{
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+ }
+ .our-plants-pera{
+width: 300px;
+align-items: center;
+text-align: center;
+ }
+ .card-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    /* align-items: center;
+    text-align: center;
+ } */
+.card-container, .img{
+    width: 50px;
+} 
+.card-btn{
+    width: 100%;
+}
+.card-praic{
+    font-size: 20px;
+}
 
-} */
+
+}
+/* Latest deals section */
+.bg-section{
+    display: grid;
+   grid-template-columns: repeat(1, 1fr);
+    width: 200px;
+}
+.bg-section img{
+width: 100px;
+align-items: center;
+text-align: center;
+}
+.bg-card{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    margin: 20px 10px;
+
+ 
+}
+.bg-1, .bg-2, .bg-3{
+    width: 400px;
+    height: 340px;
+    margin-left: 20px;
+   
+  
+    /* margin: 20px; */
+}
+.bg-title{
+
+font-size: 20px;
+align-items: center;
+}
+
+.bg-btn{
+  
+
+}
+
+/* input bunner */
+.input-bunner-section {
+width: 360px;
+margin-top: 500px;
+
+}
+.input-bunner img{
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
 
 
+}
+.input-title{
+width: 50%;
+}
+.btn-title{
+    width: 100%;
+}
+/* footer-section */
+.footer-section{
+    display: flex;
+    flex-direction: column;
+gap: 60px;
+margin-right: 100px;
+}
+.footer-card{
+  display: flex;
+  width: 100%;
+flex-direction: column;
+}
+.p{
+width: 300px;
+margin-bottom: 30px;
+}
+.ol, .ul{
+    gap: 20px;
+
+}
+.ul{
+    gap: 60px;
+}
 
 }
