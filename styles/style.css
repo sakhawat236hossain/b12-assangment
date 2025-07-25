@@ -136,6 +136,7 @@ border: none;
     height: 80px;
 }
 .main-section{
+     position: relative;
     display: flex;
     gap: 50px;
     margin-top: 100px;
@@ -145,7 +146,18 @@ border: none;
  
 }
 .main-img{
+   
 width: 400PX;
+
+}
+.badge{
+    position: absolute;
+    height: 200px;
+   left: 230px;
+   bottom: 50px;
+top: 0px;
+
+
 
 }
 .Main-taxt{
@@ -332,7 +344,7 @@ border: none;
     align-items: center;
     text-align: center;
 }
-.none{
+.none, .badge{
     display: none;
 }
 .banner-container, .main-section {
@@ -373,9 +385,7 @@ text-align: center;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    /* align-items: center;
-    text-align: center;
- } */
+  
 .card-container, .img{
     width: 50px;
 } 
